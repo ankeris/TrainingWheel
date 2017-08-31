@@ -1,3 +1,5 @@
+<?php include 'head.php'; ?>
+
 <div id="wrapper">
 
     <div id="wheel">
