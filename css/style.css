@@ -15,7 +15,7 @@ rgba(11,71,11,1) green
 
 html, body{
 	background:#eaeaea;
-	color:#fff;
+	color: rgba(0,28,47,1);
 	font-size:18px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	height: 100%;

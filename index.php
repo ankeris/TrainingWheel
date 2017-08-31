@@ -10,4 +10,4 @@
 	<a href="selectLevelPage.php" class="button">Start Training!</a>
 </section>
 
-</main>
+<?php include 'footer.php'; ?>
