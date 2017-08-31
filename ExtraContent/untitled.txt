@@ -1,0 +1,29 @@
+level 1:
+
+legs:
+	exercise: Sit ups 
+	quantity: 10
+	timer: 30 seconds
+	description: n/a.
+
+	exercise: squatting 
+	quantity: 1
+	timer: 30 seconds
+	description: sit down like this: <img>http://www.elsieisy.com/wp-content/uploads/2015/09/squatting.jpg</img>
+
+	exercise: Sit ups 
+	quantity: 10
+	timer: 60 seconds
+arms:
+
+abs:
+
+chest:
+
+shoulders:
+
+upper body:
+
+lower body:
+
+full body:
