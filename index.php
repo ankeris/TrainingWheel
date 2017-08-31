@@ -91,10 +91,8 @@ $(document).ready(function(){
 
 });//DOCUMENT READY
 
-
-
-
-
   </script>
+
 </body>
+
 </html>
