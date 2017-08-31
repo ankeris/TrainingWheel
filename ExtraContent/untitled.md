@@ -10,7 +10,7 @@ legs:
 	2exercise: squatting 
 	quantity: 1
 	timer: 30 seconds
-	description: sit down like this: ![alt text](http://www.elsieisy.com/wp-content/uploads/2015/09/squatting.jpg)
+	description: sit down like this: ![alt text](https://pogophysio.com.au/wp-content/uploads/squatting_exercise_physiosquatting_exercise_physio.png)
 
 	3exercise: 
 	quantity: 
