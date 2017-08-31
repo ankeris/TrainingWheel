@@ -1,20 +1,20 @@
 -----------level 1:--------------
 
 legs:
-	1exercise: Sit ups 
-	quantity: 10
-	timer: 30 seconds
-	description: n/a.
+		1exercise: Sit ups 
+		quantity: 10
+		timer: 30 seconds
+		description: n/a.
 
-	2exercise: squatting 
-	quantity: 1
-	timer: 30 seconds
-	description: sit down like this: ![alt text](http://www.elsieisy.com/wp-content/uploads/2015/09/squatting.jpg)
+		2exercise: squatting 
+		quantity: 1
+		timer: 30 seconds
+		description: sit down like this: ![alt text](http://www.elsieisy.com/wp-content/uploads/2015/09/squatting.jpg)
 
-	3exercise: 
-	quantity: 
-	timer:
-	description:
+		3exercise: 
+		quantity: 
+		timer:
+		description:
 
 arms:
 	1exercise: 
