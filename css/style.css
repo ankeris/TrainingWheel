@@ -1,9 +1,9 @@
 /*
 Colors
-rgba (0.113.188.1) 
-rgba (0.57.94.1) 
-rgba (0.28.47.1) 
-rgba (11.71.111)
+rgba(0,113,188,1) blue
+rgba(0,28,47,1) dark blue
+rgba(0,57,94,1) less dark blue
+rgba(11,71,11,1) green
 */
 
 /*******************************************************************/ 
@@ -13,30 +13,45 @@ rgba (11.71.111)
 	margin:0;
 	padding:0; }
 
-body{
+html, body{
 	background:#eaeaea;
 	color:#fff;
 	font-size:18px;
-	font-family: 'Exo 2', sans-serif;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	height: 100%;
 }
 
-a{
-	color:#34495e;
-	background-color: red;
+.title {
+	color: rgba(0,57,94,1);
 }
+
 .button {
+	text-decoration: none;
+	color: rgba(0,113,188,1);
+	border: 4px solid rgba(0,113,188,1);
+	font-size: 16pt;
+	font-weight: bold;
+	padding: 15px;
+	transition: 1s;
+}
+.button:hover {
+	background-color: rgba(0,113,188,0.3);
+	transition: 1s;
+}
 
+.logo {
+	border-bottom: 4px solid rgba(0,28,47,1);
 }
 
 /*******************************************************************/ 
 /* 			Layout 		 		/
 /*******************************************************************/
 .middle {
-	background-color: red;
-	margin-left: 5%;
-	margin: 5%;
-	width: 90%;
+	width: 100%;
 	text-align: center;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 50px;
 }
 
 /*******************************************************************/ 
