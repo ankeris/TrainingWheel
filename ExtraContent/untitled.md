@@ -10,7 +10,7 @@ legs:
 	2exercise: squatting 
 	quantity: 1
 	timer: 30 seconds
-	description: sit down like this: ![alt text](https://pogophysio.com.au/wp-content/uploads/squatting_exercise_physiosquatting_exercise_physio.png)
+	description: sit down like this: ![why is it not working](https://pogophysio.com.au/wp-content/uploads/squatting_exercise_physiosquatting_exercise_physio.png)
 
 	3exercise: 
 	quantity: 
