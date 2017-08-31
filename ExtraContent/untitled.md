@@ -134,25 +134,28 @@ full body:
 	quantity:
 	timer:
 	description:
-	
+
 -----------level 2:--------------
 
 legs:
-	1exercise: 
-	quantity: 
+
+	1exercise:
+	quantity:
 	timer:
 	description:
 
 	2exercise:
-	quantity: 
-	timer:
-	description: 
-
-	3exercise:
 	quantity:
 	timer:
 	description:
+
+	3exercise: 
+	quantity: 
+	timer:
+	description:
+
 arms:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -168,6 +171,7 @@ arms:
 	timer:
 	description:
 abs:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -182,7 +186,9 @@ abs:
 	quantity:
 	timer:
 	description:
+
 chest:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -197,7 +203,9 @@ chest:
 	quantity:
 	timer:
 	description:
+
 shoulders:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -212,7 +220,9 @@ shoulders:
 	quantity:
 	timer:
 	description:
+
 upper body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -227,7 +237,9 @@ upper body:
 	quantity:
 	timer:
 	description:
+
 lower body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -242,7 +254,9 @@ lower body:
 	quantity:
 	timer:
 	description:
+
 full body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -257,24 +271,28 @@ full body:
 	quantity:
 	timer:
 	description:
+	
 -----------level 3:--------------
 
 legs:
-	1exercise: 
-	quantity: 
+
+	1exercise:
+	quantity:
 	timer:
 	description:
 
 	2exercise:
-	quantity: 
-	timer:
-	description: 
-
-	3exercise:
 	quantity:
 	timer:
 	description:
+
+	3exercise: 
+	quantity: 
+	timer:
+	description:
+
 arms:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -290,6 +308,7 @@ arms:
 	timer:
 	description:
 abs:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -304,7 +323,9 @@ abs:
 	quantity:
 	timer:
 	description:
+
 chest:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -319,7 +340,9 @@ chest:
 	quantity:
 	timer:
 	description:
+
 shoulders:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -334,7 +357,9 @@ shoulders:
 	quantity:
 	timer:
 	description:
+
 upper body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -349,7 +374,9 @@ upper body:
 	quantity:
 	timer:
 	description:
+
 lower body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -364,7 +391,9 @@ lower body:
 	quantity:
 	timer:
 	description:
+
 full body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -379,23 +408,28 @@ full body:
 	quantity:
 	timer:
 	description:
+	
 -----------level 4:--------------
+
 legs:
-	1exercise: 
-	quantity: 
+
+	1exercise:
+	quantity:
 	timer:
 	description:
 
 	2exercise:
-	quantity: 
-	timer:
-	description: 
-
-	3exercise:
 	quantity:
 	timer:
 	description:
+
+	3exercise: 
+	quantity: 
+	timer:
+	description:
+
 arms:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -411,6 +445,7 @@ arms:
 	timer:
 	description:
 abs:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -425,7 +460,9 @@ abs:
 	quantity:
 	timer:
 	description:
+
 chest:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -440,7 +477,9 @@ chest:
 	quantity:
 	timer:
 	description:
+
 shoulders:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -455,7 +494,9 @@ shoulders:
 	quantity:
 	timer:
 	description:
+
 upper body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -470,7 +511,9 @@ upper body:
 	quantity:
 	timer:
 	description:
+
 lower body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -485,7 +528,9 @@ lower body:
 	quantity:
 	timer:
 	description:
+
 full body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -500,23 +545,28 @@ full body:
 	quantity:
 	timer:
 	description:
+	
 -----------level 5:--------------
+
 legs:
-	1exercise: 
-	quantity: 
+
+	1exercise:
+	quantity:
 	timer:
 	description:
 
 	2exercise:
-	quantity: 
-	timer:
-	description: 
-
-	3exercise:
 	quantity:
 	timer:
 	description:
+
+	3exercise: 
+	quantity: 
+	timer:
+	description:
+
 arms:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -532,6 +582,7 @@ arms:
 	timer:
 	description:
 abs:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -546,7 +597,9 @@ abs:
 	quantity:
 	timer:
 	description:
+
 chest:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -561,7 +614,9 @@ chest:
 	quantity:
 	timer:
 	description:
+
 shoulders:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -576,7 +631,9 @@ shoulders:
 	quantity:
 	timer:
 	description:
+
 upper body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -591,7 +648,9 @@ upper body:
 	quantity:
 	timer:
 	description:
+
 lower body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -606,7 +665,9 @@ lower body:
 	quantity:
 	timer:
 	description:
+
 full body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -621,3 +682,4 @@ full body:
 	quantity:
 	timer:
 	description:
+	
