@@ -2,22 +2,23 @@
 
 legs:
 
-		1exercise: Sit ups 
-		quantity: 10
-		timer: 30 seconds
-		description: n/a.
+	1exercise: Sit ups 
+	quantity: 10
+	timer: 30 seconds
+	description: n/a.
 
-		2exercise: squatting 
-		quantity: 1
-		timer: 30 seconds
-		description: sit down like this: ![alt text](http://www.elsieisy.com/wp-content/uploads/2015/09/squatting.jpg)
+	2exercise: squatting 
+	quantity: 1
+	timer: 30 seconds
+	description: sit down like this: ![alt text](http://www.elsieisy.com/wp-content/uploads/2015/09/squatting.jpg)
 
-		3exercise: 
-		quantity: 
-		timer:
-		description:
+	3exercise: 
+	quantity: 
+	timer:
+	description:
 
 arms:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -33,6 +34,7 @@ arms:
 	timer:
 	description:
 abs:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -47,7 +49,9 @@ abs:
 	quantity:
 	timer:
 	description:
+
 chest:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -62,7 +66,9 @@ chest:
 	quantity:
 	timer:
 	description:
+
 shoulders:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -77,7 +83,9 @@ shoulders:
 	quantity:
 	timer:
 	description:
+
 upper body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -92,7 +100,9 @@ upper body:
 	quantity:
 	timer:
 	description:
+
 lower body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -107,7 +117,9 @@ lower body:
 	quantity:
 	timer:
 	description:
+
 full body:
+
 	1exercise: 
 	quantity: 
 	timer:
@@ -122,6 +134,7 @@ full body:
 	quantity:
 	timer:
 	description:
+	
 -----------level 2:--------------
 
 legs:
