@@ -1,5 +1,3 @@
-For now I think It's enough just to put 1 exercise each
-
 -----------level 1:--------------
 
 legs:
@@ -11,7 +9,7 @@ legs:
 	2exercise: squatting 
 	quantity: 1
 	timer: 30 seconds
-	description: sit down like this: <img>http://www.elsieisy.com/wp-content/uploads/2015/09/squatting.jpg</img>
+	description: sit down like this: ![alt text](http://www.elsieisy.com/wp-content/uploads/2015/09/squatting.jpg)
 
 	3exercise: 
 	quantity: 
