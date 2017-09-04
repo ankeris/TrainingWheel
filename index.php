@@ -2,12 +2,10 @@
 
 <h1 class="middle title">Training Wheel</h1>
 
-<article class="middle">
-	<img class="logo" src="images/logo.png"><br>
-</article>
+	<img class="logo" src="images/logo.png">
 
 <section class="middle">
-	<a href="selectLevelPage.php" class="button">Start Training!</a>
+	<a href="selectLevelPage.php" ><button type="button" class="button">Start Training!</button></a>
 </section>
 
 <?php include 'footer.php'; ?>

@@ -2,4 +2,5 @@
 <a href="extraPage.php"><img src="images/questionMark.png" alt="" style="width: 32px; height: 32px;"></a>    &copy 2017
 </footer>
 </body>
+<script src="javascript.js"></script>
 </html>

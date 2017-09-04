@@ -1,9 +1,9 @@
 /*
 Colors
-rgba(0,113,188,1) blue
+rgba(0,113,188,1) light blue 
 rgba(0,28,47,1) dark blue
 rgba(0,57,94,1) less dark blue
-rgba(11,71,11,1) green
+rgba(0,90,160,1) blue
 */
 
 /*******************************************************************/ 
@@ -14,33 +14,50 @@ rgba(11,71,11,1) green
 	padding:0; }
 
 html, body{
-	background:#eaeaea;
 	color: rgba(0,28,47,1);
 	font-size:18px;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-	height: 100%;
 }
+p, h1, h2, h3, h4, h5, h6, a, ul, li {
+    font-family: 'Raleway', sans-serif;
+} 
 
 .title {
 	color: rgba(0,57,94,1);
+	margin-top: 75px;
+	margin-bottom: 75px;
+	font-size: 2.5em;
 }
 
 .button {
-	text-decoration: none;
-	color: rgba(0,113,188,1);
-	border: 4px solid rgba(0,113,188,1);
-	font-size: 16pt;
-	font-weight: bold;
-	padding: 15px;
-	transition: 1s;
-}
-.button:hover {
-	background-color: rgba(0,113,188,0.3);
-	transition: 1s;
+  margin-top: -8px;
+  display: inline-block;
+  width: 90%;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgba(0,90,160,1);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
 
+.button:hover {background-color: rgba(0,57,94,1) }
+
+.button:active {
+  background-color: rgba(0,57,94,1) ;
+  box-shadow: 0 5px rgba(0,28,47,1);
+  transform: translateY(4px);
+}
+
+
 .logo {
-	border-bottom: 4px solid rgba(0,28,47,1);
+	width: 20%;
+	padding-left: 50%;
+	margin-left: -140px;
 }
 
 /*******************************************************************/ 
@@ -51,7 +68,6 @@ html, body{
 	text-align: center;
 	margin-right: 5%;
 	margin-left: 5%;
-	margin-top: 50px;
 }
 
 /*******************************************************************/ 
@@ -75,3 +91,66 @@ html, body{
 /*******************************************************************/ 
 /* 			Navigation		 		/
 /*******************************************************************/
+.level {
+	width: 85%;
+	cursor: pointer;
+	transition: 1s;
+}
+.hover {
+	width: 101%;
+	margin-top: -5%;
+	margin-left: -5%;
+}
+.one {
+	margin-top: 27%;
+	margin-right: 2%
+
+}
+.two {
+		margin-top: 22.5%;
+}
+.three {
+		margin-top: 16%;
+}
+.four {
+		margin-top: 6.5%;
+}
+.five {
+}
+
+nav {
+	width: 80%;
+	display:flex;
+	margin-left: 12%;
+}
+
+
+
+/*******************************************************************/ 
+/* 			mediaqueri		 		/
+/*******************************************************************/
+@media screen and (max-width: 768px) {
+
+.logo {
+	width: 40%;
+	padding-left: 50%;
+	margin-left: -140px;
+}
+	.button {
+  margin-top: -8px;
+  padding: 15px 0;
+	}
+	.title {
+	color: rgba(0,57,94,1);
+	margin-top: 45px;
+	margin-bottom: 45px;
+	font-size: 2.5em;
+}
+}
+@media screen and (min-width: 768px) {
+	.button {
+  margin-top: -8px;
+  padding: 15px 105px;
+  width: auto;
+	}
+}
