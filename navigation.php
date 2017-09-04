@@ -9,10 +9,10 @@
 <script>
 $(".level").hover(
   function () {
-    $(this).addClass('hover');
+    $(this).addClass('animated jello');
   }, 
   function () {
-    $(this).removeClass('hover');
+    $(this).removeClass('animated jello');
   }
   );
 </script>
