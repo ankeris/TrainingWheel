@@ -3,6 +3,9 @@
 #wrapper {
   height: 500px;
   width: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
   margin-left: -250px;
   margin-top: -250px;
 }
@@ -38,7 +41,6 @@
 }
   </style>
 
-<body>
 <div id="wrapper">
   <input class="buttonWheel" type="button" value="SPIN ME" id='spin' />
   <canvas id="canvas" width="500" height="500"></canvas>
