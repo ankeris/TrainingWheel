@@ -24,8 +24,8 @@ p, h1, h2, h3, h4, h5, h6, a, ul, li {
 
 .title {
 	color: rgba(0,57,94,1);
-	margin-top: 75px;
-	margin-bottom: 75px;
+	margin-top: 35px;
+	margin-bottom: 35px;
 	font-size: 2.5em;
 }
 .smalltitle {
@@ -151,8 +151,8 @@ nav {
 	}
 	.title {
 	color: rgba(0,57,94,1);
-	margin-top: 45px;
-	margin-bottom: 45px;
+	margin-top: 35px;
+	margin-bottom: 35px;
 	font-size: 2.5em;
 }
 }

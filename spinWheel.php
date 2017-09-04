@@ -1,21 +1,10 @@
-
-  <style>
+<style>
 #wrapper {
   height: 500px;
   width: 500px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-left: -250px;
-  margin-top: -250px;
 }
 
 .buttonWheel {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  z-index: 1000;
-
   width: 200px;
   height:200px;
   background-color:rgba(0,57,94,1);
