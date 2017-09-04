@@ -86,41 +86,81 @@ p, h1, h2, h3, h4, h5, h6, a, ul, li {
 /*******************************************************************/ 
 /* 			Level 1, 2, 3, 4, 5	 		/
 /*******************************************************************/
+#selectcontainer {
+	margin: auto;
+	width: 40%;
+}
+.levelcontainer {
+	display: flex;
+	cursor: pointer;
+}
+.leveltext {
+	width: 65%;
+	text-align: left;
+	margin: auto;
+	padding-left: 5%;
+}
+.leveltext:active {
+	color:rgba(0,90,160,1);
+	transition: 0.5s;
+}
+#level1 {
+	width: 30%;
+	height: 30%;
+}
+#level2 {
+	width: 32%;
+	height: 32%;
+}
+#level3 {
+	width: 33%;
+	height: 33%;
+	margin-left: -1%;
+}
+#level4 {
+	width: 30%;
+	height: 30%;
+}
+#level5 {
+	width: 43%;
+	height: 43%;
+}
+.seperator {
+	width: 100%;
+	height: 2px;
+	background-color: rgba(212,212,212,1.00);
+	margin: 30px 0 30px 0;
+	clear: both;
 
-
-
+}
 /*******************************************************************/ 
 /* 			Navigation		 		/
 /*******************************************************************/
 .level {
-	width: 85%;
 	cursor: pointer;
 	transition: 1s;
+	width: 85%
 }
-.hover {
-	width: 101%;
-	margin-top: -5%;
-	margin-left: -5%;
-}
-.one {
-	margin-top: 27%;
-	margin-right: 2%
 
+.one {
+	margin-top: 22%;
+	margin-right: 2%
 }
 .two {
-		margin-top: 22.5%;
+		margin-top: 18.5%;
 }
 .three {
-		margin-top: 16%;
+		margin-top: 13%;
+	margin-left: -1%;
 }
 .four {
-		margin-top: 6.5%;
+		margin-top: 4.5%;
 }
 .five {
 }
 
 nav {
-	width: 80%;
+	width: 90%;
 	display:flex;
 	margin-left: 12%;
 }
@@ -147,6 +187,14 @@ nav {
 	margin-bottom: 45px;
 	font-size: 2.5em;
 }
+	#selectcontainer {
+	margin: auto;
+	width: 90%;
+}
+	nav {
+		width: 100%;
+		margin-left: 2%;
+	}
 }
 @media screen and (min-width: 768px) {
 	.button {
