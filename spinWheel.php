@@ -123,7 +123,7 @@
         }
 
         //Arrow
-        ctx.fillStyle = "black";
+        ctx.fillStyle = "white";
         ctx.beginPath();
         ctx.moveTo(250 - 4, 250 - (outsideRadius + 5));
         ctx.lineTo(250 + 4, 250 - (outsideRadius + 5));
@@ -162,6 +162,7 @@
       var arcd = arc * 180 / Math.PI;
       var index = Math.floor((360 - degrees % 360) / arcd);
       ctx.save();
+      ctx.fillStyle = "black";
       ctx.font = '30px Avenir';
       var text = doSomething[index]
       ctx.fillText(text, 250 - ctx.measureText(text).width / 2, 500 - 20);
