@@ -20,13 +20,10 @@
 
   z-index: 5000;
 
-
-
-
   background-color:rgba(0,57,94,1);
   color:white;
   font-family: Avenir;
-  font-size: 30px;
+  font-size: 15px;
 
   border-style: solid;
   border-color:white;
@@ -46,13 +43,13 @@
   </style>
 
 <div id="wrapper">
-<input class="buttonWheel" type="button" value="SPIN ME" id='spin' />
+<input class="buttonWheel" type="button" value="SPIN" id='spin' />
   <canvas id="canvas" width="300" height="300"></canvas>
 </div>
 
 
   <script>
-    var options = ["ABS", "ARMS", "LOWERBODY", "CHEST", "SHOULDERS", "UPPERBODY", "ARMS", "FULLBODY"];
+    var options = ["ABS", "LOWERBODY", "ARMS", "SHOULDERS", "LEGS", "UPPERBODY", "CHEST", "FULLBODY"];
 
     var doSomething = ["20 SITUPS", "10 PUSHUPS", "20 SQUATS", "10 BENCHPRESS", "10 SHOULDERPRESS", "20 DIPS", "10 SOMETHING", "20 SOMETHING"]
 
@@ -94,14 +91,14 @@
       var canvas = document.getElementById("canvas");
       if (canvas.getContext) {
         var outsideRadius = 140;
-        var textRadius = 100;
+        var textRadius = 110;
         var insideRadius = 0;
 
         ctx = canvas.getContext("2d");
         ctx.clearRect(0, 0, 300, 300);
 
 
-        ctx.font = '13px Avenir';
+        ctx.font = '12px Avenir';
 
         for (var i = 0; i < options.length; i++) {
           var angle = startAngle + i * arc;
@@ -167,9 +164,9 @@
       var index = Math.floor((360 - degrees % 360) / arcd);
       ctx.save();
       ctx.fillStyle = "black";
-      ctx.font = '30px Avenir';
+      ctx.font = '20px Avenir';
       var text = doSomething[index]
-      ctx.fillText(text, 150 - ctx.measureText(text).width / 2, 300 - 20);
+      ctx.fillText(text, 150 - ctx.measureText(text).width / 2, 300);
       ctx.restore();
     }
 
