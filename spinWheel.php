@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-  <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
-  <title>Spin Me!</title>
   <style>
 #wrapper {
   height: 500px;
   width: 500px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
   margin-left: -250px;
   margin-top: -250px;
 }
 
-.button {
+.buttonWheel {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -42,15 +33,14 @@
   transition: 1s;
 }
 
-.button:hover {
+.buttonWheel:hover {
   transform: scale(1.1,1.1);
 }
   </style>
-</head>
 
 <body>
 <div id="wrapper">
-  <input class="button" type="button" value="SPIN ME" id='spin' />
+  <input class="buttonWheel" type="button" value="SPIN ME" id='spin' />
   <canvas id="canvas" width="500" height="500"></canvas>
 </div>
 
