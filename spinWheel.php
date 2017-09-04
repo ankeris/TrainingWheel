@@ -1,13 +1,28 @@
 <style>
 #wrapper {
+  position:relative;
   height: 500px;
   width: 100%;
   text-align: center;
 }
 
+
 .buttonWheel {
   width: 200px;
   height:200px;
+
+  position: absolute;
+  top:50%;
+  left:50%;
+
+  margin-left: -100px;
+  margin-top: -100px;
+
+  z-index: 5000;
+
+
+
+
   background-color:rgba(0,57,94,1);
   color:white;
   font-family: Avenir;
@@ -21,6 +36,7 @@
   border-width: 15px;
   border-radius: 50%;
 
+
   box-shadow: 0px 0px 30px yellow;
 
   transition: 1s;
@@ -33,7 +49,7 @@
   </style>
 
 <div id="wrapper">
-  <input class="buttonWheel" type="button" value="SPIN ME" id='spin' />
+<input class="buttonWheel" type="button" value="SPIN ME" id='spin' />
   <canvas id="canvas" width="500" height="500"></canvas>
 </div>
 
