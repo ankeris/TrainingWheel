@@ -172,7 +172,8 @@ a {
 nav {
 	width: 90%;
 	display:flex;
-	margin-left: 12%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 
