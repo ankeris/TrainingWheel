@@ -21,7 +21,9 @@ html, body{
 p, h1, h2, h3, h4, h5, h6, a, ul, li {
     font-family: 'Raleway', sans-serif;
 } 
-
+a {
+	text-decoration: none; display: inline; color: black;
+}
 .title {
 	color: rgba(0,57,94,1);
 	margin-top: 35px;
@@ -195,7 +197,8 @@ p, h1, h2, h3, h4, h5, h6, a, ul, li {
 nav {
 	width: 90%;
 	display:flex;
-	margin-left: 12%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 
@@ -216,8 +219,6 @@ nav {
 	}
 	.title {
 	color: rgba(0,57,94,1);
-	margin-top: 35px;
-	margin-bottom: 35px;
 	font-size: 2.5em;
 }
 	#selectcontainer {
