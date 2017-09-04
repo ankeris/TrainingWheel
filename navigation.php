@@ -1,4 +1,3 @@
-<?php include 'head.php'; ?>
 <nav>
 <section class="levelB"><img alt="background" id="level" class="level one" src="images/level1.png"></section>
 <section class="levelB"><img alt="background" class="level two" src="images/level2.png"></section>

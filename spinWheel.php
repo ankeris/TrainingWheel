@@ -1,7 +1,8 @@
 <style>
 #wrapper {
   height: 500px;
-  width: 500px;
+  width: 100%;
+  text-align: center;
 }
 
 .buttonWheel {
@@ -23,6 +24,7 @@
   box-shadow: 0px 0px 30px yellow;
 
   transition: 1s;
+  position: absolute;
 }
 
 .buttonWheel:hover {
@@ -165,6 +167,3 @@
 
     drawRouletteWheel();
   </script>
-</body>
-
-</html>
