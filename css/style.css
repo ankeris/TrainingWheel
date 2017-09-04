@@ -28,6 +28,13 @@ p, h1, h2, h3, h4, h5, h6, a, ul, li {
 	margin-bottom: 75px;
 	font-size: 2.5em;
 }
+.smalltitle {
+	color: rgba(0,28,47,1);
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1em;
+	text-decoration: underline;
+}
 
 .button {
   margin-top: -8px;
@@ -43,9 +50,10 @@ p, h1, h2, h3, h4, h5, h6, a, ul, li {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  transition-duration: 1s;
 }
 
-.button:hover {background-color: rgba(0,57,94,1) }
+.button:hover {background-color: rgba(0,57,94,1); transition-duration: 90ms;}
 
 .button:active {
   background-color: rgba(0,57,94,1) ;

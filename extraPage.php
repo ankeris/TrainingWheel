@@ -4,32 +4,18 @@
     max-width: 500px;
     display: block;
     text-align: left;
-    margin: auto;
-">
-
-    <h1 class="middle" style="font-size: 50px;color: #00395E;margin-bottom: 20px;">Information</h1><h1>
-
-    </h1><h2>Introduction</h2>
-    <p style="
-    font-size: 20px;
-    font-weight: 100;
-">The Training Wheel is a web application made to help people get some extra excersises in a fun and random way.</p>
-<h2>FAQ</h2><h2>
-    <p style=" font-size: 20px;
-    font-weight: 100;
-">How does it work?</p>
-<p style=" font-size: 20px;
-    font-weight: 100;
-">- You spin the wheel and you get an excersise task.</p>
-    </h2><h2>Help</h2><h2>
-    <p style=" font-size: 20px;
-    font-weight: 100;
-">Have you tried turning it on and off?</p>
-    </h2><h2>Contact</h2><h2>
-    <p style=" font-size: 20px;
-    font-weight: 100;
-">You can contact us at ...@...</p>
-
+    margin: auto;">
+    
+    <h1 class="title middle">Information</h1>
+    <h3 class="smalltitle">Introduction</h3>
+    <p>The Training Wheel is a web application made to help people get some extra exercises in a fun and random way.</p>
+    <h3 class="smalltitle">FAQ</h3>
+    <p>How does it work?</p>
+    <p>- You spin the wheel and you get an exercise task.</p>
+    <h3 class="smalltitle">Help</h3>
+    <p>Have you tried turning it on and off?</p>
+    <h3 class="smalltitle">Contact</h3>
+    <p>You can contact us at ...@...</p>
 </section>
 
 
