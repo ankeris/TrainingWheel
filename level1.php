@@ -1,6 +1,6 @@
 <?php include 'head.php'; ?>
 <?php include 'navigation.php'; ?>
-<h2 class="title middle">Level: Kid</h2>
+<h2 class="title middle">Level: Baby</h2>
 <figure>
 	<?php include 'spinWheel.php'; ?>
 </figure>
