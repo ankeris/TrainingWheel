@@ -1,5 +1,8 @@
 <?php include 'head.php'; ?>
-
+<section class="back">
+	<figure id="stick2"></figure>
+	<figure id="stick1"></figure>
+</section>
 <section class="information" style="
     max-width: 500px;
     display: block;

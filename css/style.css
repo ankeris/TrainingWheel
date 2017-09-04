@@ -67,6 +67,31 @@ p, h1, h2, h3, h4, h5, h6, a, ul, li {
 	padding-left: 50%;
 	margin-left: -140px;
 }
+.back {
+		  position: absolute;
+		  height: 50px;
+		  width: 50px;
+		  background-color: rgba(0,28,47,1);
+		  border-radius: 20%;
+	  }
+	  #stick1 {
+		  transform: rotate(45deg);
+		  width: 60%;
+		  height: 5px;
+		  background-color: white;
+		  margin-left: 15%;
+		  margin-top: 60%;
+	  }
+	  #stick2 {
+		  transform: rotate(-45deg);
+		  width: 60%;
+		  height: 5px;
+		  background-color: white;
+		  margin-left: 15%;
+		  position: absolute;
+		  margin-top: 24%;
+
+	  }
 
 /*******************************************************************/ 
 /* 			Layout 		 		/

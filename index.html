@@ -34,10 +34,39 @@
 
   border-radius: 50%;
 }
+	  .back {
+		  position: absolute;
+		  height: 50px;
+		  width: 50px;
+		  background-color: rgba(0,28,47,1);
+		  border-radius: 20%;
+	  }
+	  #stick1 {
+		  transform: rotate(45deg);
+		  width: 60%;
+		  height: 5px;
+		  background-color: white;
+		  margin-left: 15%;
+		  margin-top: 60%;
+	  }
+	  #stick2 {
+		  transform: rotate(-45deg);
+		  width: 60%;
+		  height: 5px;
+		  background-color: white;
+		  margin-left: 15%;
+		  position: absolute;
+		  margin-top: 24%;
+
+	  }
   </style>
 </head>
 
 <body>
+<section class="back">
+	<figure id="stick2"></figure>
+	<figure id="stick1"></figure>
+</section>
 <div id="wrapper">
   <input class="button" type="button" value="spin" id='spin' />
   <canvas id="canvas" width="500" height="500"></canvas>
