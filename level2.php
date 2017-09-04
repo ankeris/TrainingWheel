@@ -1,2 +1,3 @@
 <?php include 'head.php'; ?>
-Choose level page
+lvl2
+<?php include 'footer.php'; ?>
