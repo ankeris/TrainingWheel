@@ -76,6 +76,7 @@ a {
 		  width: 50px;
 		  background-color: rgba(0,28,47,1);
 		  border-radius: 20%;
+	          margin: 2% 0 0 2%;
 	  }
 	  #stick1 {
 		  transform: rotate(45deg);
@@ -176,6 +177,7 @@ a {
 	cursor: pointer;
 	transition: 1s;
 	width: 85%;
+	margin-left: 5%;
 }
 
 .one {
@@ -186,7 +188,7 @@ a {
 }
 .three {
 		margin-top: 13%;
-	margin-left: -1%;
+	     margin-left: 6%;
 }
 .four {
 		margin-top: 4.5%;
