@@ -49,7 +49,6 @@
   <canvas id="canvas" width="300" height="400"></canvas>
 </div>
 
-
   <script>
     var options = ["ABS", "LOWERBODY", "ARMS", "SHOULDERS", "LEGS", "UPPERBODY", "CHEST", "FULLBODY"];
 
