@@ -51,9 +51,9 @@
 
 
   <script>
-    var options = ["ABS", "LOWERBODY", "ARMS", "SHOULDERS", "LEGS", "UPPERBODY", "CHEST", "FULLBODY"];
+    var options = ["ABS", "UPPERBODY", "ARMS", "SHOULDERS", "LEGS", "BACK", "CHEST", "FULLBODY"];
 
-    var doSomething = ["20 SITUPS", "10 PUSHUPS", "20 SQUATS", "10 BENCHPRESS", "10 SHOULDERPRESS", "20 DIPS", "10 SOMETHING", "20 SOMETHING"]
+    var doSomething = ["10 sit ups", "Plank 20 seconds", "5 dips", "Crab walk for 20 seconds", "10 lounges", "5 inverted rows", "5 push ups", "5 jumping jacks"];
 
     var startAngle = 0;
     var arc = Math.PI / (options.length / 2);
@@ -100,7 +100,7 @@
         ctx.clearRect(0, 0, 300, 400);
 
 
-        ctx.font = '12px Avenir';
+        ctx.font = "14px Avenir";
 
         for (var i = 0; i < options.length; i++) {
           var angle = startAngle + i * arc;
@@ -166,7 +166,7 @@
       var index = Math.floor((360 - degrees % 360) / arcd);
       ctx.save();
       ctx.fillStyle = "black";
-      ctx.font = '17px Avenir';
+      ctx.font = "25px 'Raleway', sans-serif";
       var text = doSomething[index];
       ctx.fillText(text, 150 - ctx.measureText(text).width / 2, 380);
       ctx.restore();
