@@ -23,10 +23,10 @@
 <script>
 $(".level").hover(
   function () {
-    $(this).addClass('animated jello');
+    $(this).addClass('animated tada');
   }, 
   function () {
-    $(this).removeClass('animated jello');
+    $(this).removeClass('animated tada');
   }
   );
 </script>
