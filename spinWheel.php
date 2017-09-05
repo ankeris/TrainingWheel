@@ -4,34 +4,36 @@
   height: 400px;
   width: 100%;
   text-align: center;
+  margin-top: -50px;
 }
 
 
 .buttonWheel {
-  width: 100px;
-  height:100px;
+  width: 180px;
+  height:180px;
 
   position: absolute;
   top:50%;
   left:50%;
 
-  margin-left: -50px;
-  margin-top: -50px;
+  margin-left: -90px;
+  margin-top: -90px;
 
   z-index: 5000;
 
   background-color:rgba(0,57,94,1);
   color:white;
   font-family: Avenir;
-  font-size: 15px;
+  font-size: 35px;
+  font-style: bold;
 
   border-style: solid;
   border-color:white;
-  border-width: 10px;
+  border-width: 20px;
   border-radius: 50%;
 
 
-  box-shadow: 0px 0px 30px yellow;
+  /*box-shadow: 0px 0px 30px yellow;*/
 
   transition: 1s;
   position: absolute;
@@ -44,7 +46,7 @@
 
 <div id="wrapper">
 <input class="buttonWheel" type="button" value="SPIN" id='spin' />
-  <canvas id="canvas" width="400" height="400"></canvas>
+  <canvas id="canvas" width="300" height="400"></canvas>
 </div>
 
 
@@ -92,10 +94,10 @@
       if (canvas.getContext) {
         var outsideRadius = 140;
         var textRadius = 110;
-        var insideRadius = 0;
+        var insideRadius = 90;
 
         ctx = canvas.getContext("2d");
-        ctx.clearRect(0, 0, 150, 150);
+        ctx.clearRect(0, 0, 300, 400);
 
 
         ctx.font = '12px Avenir';
@@ -106,8 +108,8 @@
           ctx.fillStyle = getColor(i, options.length);
 
           ctx.beginPath();
-          ctx.arc(200, 200, outsideRadius, angle, angle + arc, false);
-          ctx.arc(200, 200, insideRadius, angle + arc, angle, true);
+          ctx.arc(150, 200, outsideRadius, angle, angle + arc, false);
+          ctx.arc(150, 200, insideRadius, angle + arc, angle, true);
           ctx.stroke();
           ctx.fill();
 
@@ -115,7 +117,7 @@
           ctx.fillStyle = "white";
           ctx.fontFamily = "Avenir";
           ctx.borderStyle = "solid";
-          ctx.translate(200 + Math.cos(angle + arc / 2) * textRadius,
+          ctx.translate(150 + Math.cos(angle + arc / 2) * textRadius,
             200 + Math.sin(angle + arc / 2) * textRadius);
           ctx.rotate(angle + arc / 2 + Math.PI / 2);
           var text = options[i];
@@ -126,14 +128,14 @@
         //Arrow
         ctx.fillStyle = "white";
         ctx.beginPath();
-        ctx.moveTo(200 - 4, 200 - (outsideRadius + 5));
-        ctx.lineTo(200 + 4, 200 - (outsideRadius + 5));
-        ctx.lineTo(200 + 4, 200 - (outsideRadius - 5));
-        ctx.lineTo(200 + 9, 200 - (outsideRadius - 5));
-        ctx.lineTo(200 + 0, 200 - (outsideRadius - 13));
-        ctx.lineTo(200 - 9, 200 - (outsideRadius - 5));
-        ctx.lineTo(200 - 4, 200 - (outsideRadius - 5));
-        ctx.lineTo(200 - 4, 200 - (outsideRadius + 5));
+        ctx.moveTo(150 - 4, 200 - (outsideRadius + 5));
+        ctx.lineTo(150 + 4, 200 - (outsideRadius + 5));
+        ctx.lineTo(150 + 4, 200 - (outsideRadius - 5));
+        ctx.lineTo(150 + 9, 200 - (outsideRadius - 5));
+        ctx.lineTo(150 + 0, 200 - (outsideRadius - 13));
+        ctx.lineTo(150 - 9, 200 - (outsideRadius - 5));
+        ctx.lineTo(150 - 4, 200 - (outsideRadius - 5));
+        ctx.lineTo(150 - 4, 200 - (outsideRadius + 5));
         ctx.fill();
       }
     }
@@ -164,9 +166,9 @@
       var index = Math.floor((360 - degrees % 360) / arcd);
       ctx.save();
       ctx.fillStyle = "black";
-      ctx.font = '20px Avenir';
-      var text = doSomething[index]
-      ctx.fillText(text, 200 - ctx.measureText(text).width / 2, 380);
+      ctx.font = '17px Avenir';
+      var text = doSomething[index];
+      ctx.fillText(text, 150 - ctx.measureText(text).width / 2, 380);
       ctx.restore();
     }
 
