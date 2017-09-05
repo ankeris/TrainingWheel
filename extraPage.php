@@ -7,6 +7,7 @@
     max-width: 500px;
     display: block;
     text-align: left;
+    padding: 5%;
     margin: auto;">
     
     <h1 class="title middle">Information</h1>
