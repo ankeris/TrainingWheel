@@ -1,5 +1,5 @@
 <?php include 'head.php'; ?>
-<section class="back">
+<section onclick="goBack()" class="back">
 	<figure id="stick2"></figure>
 	<figure id="stick1"></figure>
 </section>
@@ -21,6 +21,12 @@
     <h3 class="smalltitle">Contact</h3>
     <p>You can contact us at ...@...</p>
 </section>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
 
 
 
