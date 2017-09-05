@@ -76,6 +76,7 @@ a {
 		  width: 50px;
 		  background-color: rgba(0,28,47,1);
 		  border-radius: 20%;
+	          margin: 2% 0 0 2%;
 	  }
 	  #stick1 {
 		  transform: rotate(45deg);
