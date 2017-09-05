@@ -50,10 +50,10 @@
 <script>
 $(".levelcontainer").hover(
   function () {
-    $(this).addClass('animated rubberBand .leveltexthover');
+    $(this).addClass('animated tada .leveltexthover');
   }, 
   function () {
-    $(this).removeClass('animated rubberBand .leveltexthover');
+    $(this).removeClass('animated tada .leveltexthover');
   }
   );
 </script>

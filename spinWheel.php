@@ -29,7 +29,7 @@
 
   border-style: solid;
   border-color:white;
-  border-width: 20px;
+  border-width: 10px;
   border-radius: 50%;
 
 
@@ -44,15 +44,36 @@
 }
   </style>
 
+<<<<<<< HEAD
 <div id="wrapper">
 <input class="buttonWheel" type="button" value="SPIN" id='spin' />
   <canvas id="canvas" width="300" height="400"></canvas>
 </div>
+=======
+  <div id="wrapper">
+    <input class="buttonWheel" type="button" value="SPIN" id='spin' />
+      <canvas id="canvas" width="300" height="400"></canvas>
+  </div>
+>>>>>>> e8dddaf6de342949129f39a81d179527cb67afb9
 
   <script>
-    var options = ["ABS", "LOWERBODY", "ARMS", "SHOULDERS", "LEGS", "UPPERBODY", "CHEST", "FULLBODY"];
 
-    var doSomething = ["20 SITUPS", "10 PUSHUPS", "20 SQUATS", "10 BENCHPRESS", "10 SHOULDERPRESS", "20 DIPS", "10 SOMETHING", "20 SOMETHING"]
+  if(window.location.href === "http://jonas-k.dk/TrainingWheel/level1.php"){
+    var doSomething = ["10 sit ups", "Plank 25 seconds", "5 dips", "Crab walk for 20 seconds", "10 lounges", "5 inverted rows", "5 push ups", "5 jumping jacks"];
+  } else if(window.location.href === "http://jonas-k.dk/TrainingWheel/level2.php") {
+    var doSomething = ["15 sit ups", "Plank 30 seconds", "10 dips", "Crab walk for 25 seconds", "15 lounges", "10 inverted rows", "10 push ups", "10 jumping jacks"];
+  } else if(window.location.href === "http://jonas-k.dk/TrainingWheel/level3.php") {
+    var doSomething = ["20 sit ups", "Plank 35 seconds", "15 dips", "Crab walk for 30 seconds", "20 lounges", "15 inverted rows", "15 push ups", "15 jumping jacks"];
+  } else if(window.location.href === "http://jonas-k.dk/TrainingWheel/level4.php") {
+    var doSomething = ["25 sit ups", "Plank 40 seconds", "10 Diamond push ups", "Hand stand 20 seconds", "25 lounges", "20 inverted rows", "20 push ups", "20 jumping jacks"];
+  } else if(window.location.href === "http://jonas-k.dk/TrainingWheel/level5.php") {
+    var doSomething = ["30 sit ups", "Plank 45 seconds", "20 Diamond push ups", "Hand stand 40 seconds", "30 lounges", "25 inverted rows", "25 push ups", "25 jumping jacks"];
+  } else {
+    alert("Something went wrong.");
+  }
+
+    var options = ["ABS", "UPPERBODY", "ARMS", "SHOULDERS", "LEGS", "BACK", "CHEST", "FULLBODY"];
+
 
     var startAngle = 0;
     var arc = Math.PI / (options.length / 2);
@@ -98,8 +119,11 @@
         ctx = canvas.getContext("2d");
         ctx.clearRect(0, 0, 300, 400);
 
+        ctx.strokeStyle = "white";
+        ctx.lineWidth = 15;
 
-        ctx.font = '12px Avenir';
+
+        ctx.font = "14px Avenir";
 
         for (var i = 0; i < options.length; i++) {
           var angle = startAngle + i * arc;
@@ -165,7 +189,7 @@
       var index = Math.floor((360 - degrees % 360) / arcd);
       ctx.save();
       ctx.fillStyle = "black";
-      ctx.font = '17px Avenir';
+      ctx.font = "25px 'Raleway', sans-serif";
       var text = doSomething[index];
       ctx.fillText(text, 150 - ctx.measureText(text).width / 2, 380);
       ctx.restore();
@@ -178,4 +202,6 @@
     }
 
     drawRouletteWheel();
+
+
   </script>
