@@ -180,7 +180,6 @@ a {
 
 .one {
 	margin-top: 22%;
-	margin-right: 2%
 }
 .two {
 		margin-top: 18.5%;
@@ -200,6 +199,7 @@ nav {
 	display:flex;
 	margin-left: 5%;
 	margin-right: 5%;
+	margin-top: 2%;
 }
 
 
@@ -237,4 +237,13 @@ nav {
   padding: 15px 105px;
   width: auto;
 	}
+}
+@media screen and (min-width: 1200px) {
+.level {
+margin-left: 30%;
+margin-right: 30%;
+}
+.three {
+	margin-left: 25%;
+}
 }
