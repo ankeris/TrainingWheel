@@ -24,6 +24,17 @@ p, h1, h2, h3, h4, h5, h6, a, ul, li {
 a {
 	text-decoration: none; display: inline; color: black;
 }
+main {
+	background-image: url(../images/baggrund.png);
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	position: fixed;
+	background-size:cover;
+	z-index: -10;
+	top:0;
+}
 .title {
 	color: rgba(0,57,94,1);
 	margin-top: 35px;
@@ -190,22 +201,16 @@ a {
 .level {
 	cursor: pointer;
 	transition: 1s;
-	width: 85%;
-	margin-left: 5%;
+	width: 100%;
 }
 
 .one {
-	margin-top: 22%;
 }
 .two {
-		margin-top: 18.5%;
 }
 .three {
-		margin-top: 13%;
-	     margin-left: 6%;
 }
 .four {
-		margin-top: 4.5%;
 }
 .five {
 }
@@ -216,8 +221,12 @@ nav {
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-top: 2%;
+	align-items: center;
 }
-
+nav a {
+	width: 98%;
+	margin: 0 1%;
+}
 
 
 /*******************************************************************/
@@ -255,11 +264,5 @@ nav {
 	}
 }
 @media screen and (min-width: 1200px) {
-.level {
-margin-left: 30%;
-margin-right: 30%;
-}
-.three {
-	margin-left: 25%;
-}
+
 }
