@@ -44,17 +44,11 @@
 }
   </style>
 
-<<<<<<< HEAD
 <div id="wrapper">
 <input class="buttonWheel" type="button" value="SPIN" id='spin' />
   <canvas id="canvas" width="300" height="400"></canvas>
 </div>
-=======
-  <div id="wrapper">
-    <input class="buttonWheel" type="button" value="SPIN" id='spin' />
-      <canvas id="canvas" width="300" height="400"></canvas>
-  </div>
->>>>>>> e8dddaf6de342949129f39a81d179527cb67afb9
+
 
   <script>
 
