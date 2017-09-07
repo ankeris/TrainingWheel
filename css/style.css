@@ -112,8 +112,8 @@ main {
 	height: auto;
 	bottom: 6%;
 	right: 6%;
-		z-index: -9;
-
+	z-index: -9;
+	display: block;
 }
 #question {
 	position: fixed;
@@ -285,6 +285,13 @@ nav a {
 /*******************************************************************/
 /* 			mediaqueri		 		/
 /*******************************************************************/
+@media screen and (max-width: 550px) {
+	#plante {
+	display: none;
+
+}
+}
+
 @media screen and (max-width: 768px) {
 
 .logo {
@@ -314,7 +321,8 @@ nav a {
 	height: auto;
 	bottom: 6%;
 	right: 6%;
-		z-index: -9;
+	z-index: -9;
+    display: block;
 
 }
 #question {
