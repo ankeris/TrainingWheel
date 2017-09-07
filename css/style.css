@@ -120,7 +120,29 @@ main {
 	position: fixed;
 	bottom: 0;
 	margin: 0 0 10px 10px;
-	width: 5%;
+	width: 5%; 
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(1%);
+  }
+}
+
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(1%);
+  }
+}
+
+#question:hover {
+  animation: bounce 1.5s infinite alternate;
+  -webkit-animation: bounce 1.5s infinite alternate;
 }
 #hulk {
 	padding-bottom: 30px;
@@ -136,10 +158,52 @@ main {
 }
 
 /*******************************************************************/
-/* 			Index Page 		 		/
+/* 			Wheel Page 		 		/
 /*******************************************************************/
 
+#wrapper {
+  position:relative;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  margin-top: -50px;
+}
 
+
+.buttonWheel {
+  width: 180px;
+  height:180px;
+
+  position: absolute;
+  top:50%;
+  left:50%;
+
+  margin-left: -90px;
+  margin-top: -90px;
+
+  z-index: 5000;
+
+  background-color:rgba(0,57,94,1);
+  color:white;
+  font-family: Avenir;
+  font-size: 35px;
+  font-style: bold;
+
+  border-style: solid;
+  border-color:white;
+  border-width: 10px;
+  border-radius: 50%;
+
+
+  /*box-shadow: 0px 0px 30px yellow;*/
+
+  transition: 1s;
+  position: absolute;
+}
+
+.buttonWheel:hover {
+  transform: scale(1.1,1.1);
+}
 
 /*******************************************************************/
 /* 			Extra Page		 		/
