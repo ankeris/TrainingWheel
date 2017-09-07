@@ -26,3 +26,6 @@ $(".levelcontainer").hover(
     $(this).removeClass('animated tada .leveltexthover');
   }
   );
+  
+    var sound = new Audio ();
+    sound.src = "sound.mp3";
