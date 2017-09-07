@@ -3,4 +3,14 @@
 </footer>
 </body>
 <script src="javascript.js"></script>
+<script>
+$("#question").hover(
+  function () {
+    $(this).addClass('animated swing');
+  }, 
+  function () {
+    $(this).removeClass('animated swing');
+  }
+  );
+</script>
 </html>
