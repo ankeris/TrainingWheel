@@ -256,18 +256,6 @@ main {
 	transition: 1s;
 	width: 100%;
 }
-
-.one {
-}
-.two {
-}
-.three {
-}
-.four {
-}
-.five {
-}
-
 nav {
 	width: 90%;
 	display:flex;
@@ -288,7 +276,6 @@ nav a {
 @media screen and (max-width: 550px) {
 	#plante {
 	display: none;
-
 }
 }
 
@@ -322,7 +309,6 @@ nav a {
 	bottom: 6%;
 	right: 6%;
 	z-index: -9;
-    display: block;
 
 }
 #question {
@@ -335,7 +321,4 @@ nav a {
   padding: 15px 105px;
   width: 40%;
 	}
-}
-@media screen and (min-width: 1200px) {
-
 }
