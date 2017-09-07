@@ -87,16 +87,16 @@ main {
 		  background-color: rgba(0,28,47,1);
 		  border-radius: 20%;
 	          margin: 2% 0 0 2%;
-	  }
-	  #stick1 {
+ }
+#stick1 {
 		  transform: rotate(45deg);
 		  width: 60%;
 		  height: 5px;
 		  background-color: white;
 		  margin-left: 15%;
 		  margin-top: 60%;
-	  }
-	  #stick2 {
+}
+#stick2 {
 		  transform: rotate(-45deg);
 		  width: 60%;
 		  height: 5px;
@@ -104,8 +104,7 @@ main {
 		  margin-left: 15%;
 		  position: absolute;
 		  margin-top: 24%;
-
-	  }
+}
 
 #plante {
 	position: fixed;
@@ -182,6 +181,13 @@ main {
 
 .buttonWheel:hover {
   transform: scale(1.1,1.1);
+}
+#whitebox {
+	width: 300px;
+	margin: -55px auto auto;
+	height: 45px;
+	border-radius: 20px;
+	background-color: rgba(255,255,255,0.49);
 }
 
 /*******************************************************************/
