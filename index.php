@@ -1,5 +1,6 @@
 <?php include 'head.php'; ?>
-
+<main></main>
+<img src="images/plante.png" id="plante" alt="livingroom">
 <h1 class="middle title">Training Wheel</h1>
 
 	<img class="logo" src="images/logo.png">

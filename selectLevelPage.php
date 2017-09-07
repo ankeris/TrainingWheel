@@ -1,6 +1,7 @@
 <?php include 'head.php'; ?>
-
-<main id="selectcontainer">
+<img src="images/plante.png" id="plante" alt="livingroom">
+<main></main>
+<section id="selectcontainer">
 <h2 class="title middle">Choose level</h2>
 
 <a href="level1.php">
@@ -46,7 +47,7 @@
   </section>
 </a>
 
-</main>
+</section>
 <script>
 $(".levelcontainer").hover(
   function () {
