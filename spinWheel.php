@@ -114,8 +114,8 @@
         ctx = canvas.getContext("2d");
         ctx.clearRect(0, 0, 300, 400);
 
-        ctx.strokeStyle = "white";
-        ctx.lineWidth = 15;
+        // ctx.strokeStyle = "white";
+        // ctx.lineWidth = 15;
 
 
         ctx.font = "14px Avenir";
