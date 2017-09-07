@@ -5,4 +5,5 @@
 <script src="js/spinwheel.js"></script>
 <script src="js/javascript.js"></script>
 <script src="js/sketch.js"></script>
+<script src="js/levelLoader.js"></script>
 </html>
