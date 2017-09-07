@@ -48,11 +48,7 @@
 <input class="buttonWheel" type="button" value="SPIN" id='spin' />
   <canvas id="canvas" width="300" height="400"></canvas>
 </div>
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 11e667766bf9240b3acd18b164734eb1b9a51e59
   <script>
 
   var doSomething;
