@@ -2,7 +2,7 @@
 <a href="extraPage.php"><img src="images/questionMark.png" alt="info" id="question"></a>
 </footer>
 </body>
-<script src="javascript.js"></script>
+<script src="js/spinwheel.js"></script>
 <script>
 $("#question").hover(
   function () {
