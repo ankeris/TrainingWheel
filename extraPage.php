@@ -21,6 +21,7 @@
     <p>Have you tried turning it on and off?</p>
     <h3 class="smalltitle">Contact</h3>
     <p>You can contact us at ...@...</p>
+    <img id="extrapageimage" src="../TrainingWheel/images/pushupexample.png">
 </section>
 
 <script>
