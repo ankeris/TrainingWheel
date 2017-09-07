@@ -40,14 +40,15 @@
 
 <figure class="seperator"></figure>
 
-<a href="level5.php">
-  <section class="levelcontainer">
+<a href="level5.php" >
+  <section class="levelcontainer" id="hulk">
   <img src="images/level5.png" alt="level" id="level5">
   	<p class="leveltext">Level five, hulk version, take it to the extreme!</p>
   </section>
 </a>
 
 </section>
+<?php include 'footer.php'; ?>
 <script>
 $(".levelcontainer").hover(
   function () {

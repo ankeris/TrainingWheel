@@ -1,4 +1,5 @@
 <?php include 'head.php'; ?>
+<main></main>
 <section onclick="goBack()" class="back">
 	<figure id="stick2"></figure>
 	<figure id="stick1"></figure>
