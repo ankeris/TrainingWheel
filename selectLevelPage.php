@@ -7,7 +7,7 @@
 <a href="level1">
   <section class="levelcontainer">
     <img src="images/level1.png" alt="level" id="level1">
-  	 <p class="leveltext">Level one, the kid version, a good start.</p>
+  	 <p class="leveltext">Level one: the Baby. A simple start or slight warmup.</p>
   </section>
 </a>
 
@@ -16,7 +16,7 @@
 <a href="level2">
   <section class="levelcontainer">
   <img src="images/level2.png" alt="level" id="level2">
-  	<p class="leveltext">Level two, the right above beginner.</p>
+  	<p class="leveltext">Level two: The Virgin, for those who lack experience.</p>
   </section>
 </a>
 
@@ -25,7 +25,7 @@
 <a href="level3">
   <section class="levelcontainer">
   <img src="images/level3.png" alt="level" id="level3">
-  	<p class="leveltext">Level three, the middle guy.</p>
+  	<p class="leveltext">Level three: The Pretty Cool Dude, reasonable workout.</p>
   </section>
 </a>
 
@@ -34,7 +34,7 @@
 <a href="level4">
   <section class="levelcontainer">
   <img src="images/level4.png" alt="level" id="level4">
-  	<p class="leveltext">Level four, if your strong, but not the strongest.</p>
+  	<p class="leveltext">Level four: The KickAss, might steal your gf.</p>
   </section>
 </a>
 
@@ -43,7 +43,7 @@
 <a href="level5" >
   <section class="levelcontainer" id="hulk">
   <img src="images/level5.png" alt="level" id="level5">
-  	<p class="leveltext">Level five, hulk version, take it to the extreme!</p>
+  	<p class="leveltext">Level five: Chuck Norris, challenge it to the extreme!</p>
   </section>
 </a>
 
