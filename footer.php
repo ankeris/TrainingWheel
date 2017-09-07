@@ -3,14 +3,5 @@
 </footer>
 </body>
 <script src="js/spinwheel.js"></script>
-<script>
-$("#question").hover(
-  function () {
-    $(this).addClass('animated swing');
-  },
-  function () {
-    $(this).removeClass('animated swing');
-  }
-  );
-</script>
+<script src="js/javascript.js"></script>
 </html>

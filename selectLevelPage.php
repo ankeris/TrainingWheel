@@ -49,13 +49,4 @@
 
 </section>
 <?php include 'footer.php'; ?>
-<script>
-$(".levelcontainer").hover(
-  function () {
-    $(this).addClass('animated tada .leveltexthover');
-  }, 
-  function () {
-    $(this).removeClass('animated tada .leveltexthover');
-  }
-  );
-</script>
+
