@@ -5,6 +5,7 @@ window.onload = function loading() {
 	title.style.display = "none";
 }
 setTimeout(function(){
-	title.style.display = "block";
 	loader.style.display = "none";
+	title.style.display = "block";
+	
 	}, 700);
