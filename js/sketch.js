@@ -30,4 +30,3 @@ function bounceOnWallHit() {
 function ellipseleSpeed() {
 	ellipsele.x = ellipsele.x + ellipsele.xspeed;
 }
-new p5(sketch, window.document.getElementById('sketchas'));

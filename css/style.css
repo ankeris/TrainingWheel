@@ -74,7 +74,6 @@ main {
   transform: translateY(4px);
 }
 
-
 .logo {
 	width: 20%;
 	padding-left: 50%;
@@ -248,6 +247,10 @@ main {
 	clear: both;
 
 }
+/* LOADING SCREEN */
+#sketch > canvas {
+border: 1px solid rgba(25,25,200,0.3);
+border-radius: 15px;}
 /*******************************************************************/
 /* 			Navigation		 		/
 /*******************************************************************/
