@@ -10,9 +10,7 @@ if(window.location.href.match('level1') ){
   doSomething = ["25 sit ups", "Plank 40 seconds", "10 Diamond push ups", "Hand stand 20 seconds", "25 lounges", "20 inverted rows", "20 push ups", "20 jumping jacks"];
 } else if(window.location.href.match('level5')) {
   doSomething = ["30 sit ups", "Plank 45 seconds", "20 Diamond push ups", "Hand stand 40 seconds", "30 lounges", "25 inverted rows", "25 push ups", "25 jumping jacks"];
-} else {
-  alert("Something went wrong.");
-}
+} 
 
   var options = ["ABS", "UPPERBODY", "ARMS", "SHOULDERS", "LEGS", "BACK", "CHEST", "FULLBODY"];
 
