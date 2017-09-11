@@ -8,7 +8,7 @@
 <figure>
 	<?php include 'spinWheel.php'; ?>
 </figure>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
-</script>
+</script> -->
 <?php include 'footer.php'; ?>
